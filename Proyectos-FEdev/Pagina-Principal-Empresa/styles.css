@@ -1,0 +1,226 @@
+html {
+    font-family: system-ui;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+h2 {
+    padding: 2rem;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+
+/*navigation*/
+
+
+button {
+    background-color: #47e0ff;
+    border-radius: 5px;
+    border-style: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFF8E1;
+    margin: 0.25rem;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+nav li {
+    padding: auto 1rem;
+    margin: auto 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+nav a {
+    font-weight: 600;
+    color: #333333;
+}
+
+nav .logo {
+    margin: 0.25rem 0.5rem;
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+
+/*main body*/
+
+/*mission statement*/
+#mission-statement {
+    display: flex;
+    background-image: url('photos/nasa.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    height: 40rem;
+    padding-top: 60px;
+    justify-content: right;
+    align-items: center;
+}
+
+#mission-statement .content {
+    margin: 3rem;
+}
+
+#mission-statement h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: floralwhite;
+}
+
+/*projects*/
+
+#projects {
+    background-color: rgb(56, 56, 56);
+    padding: 0 2rem;
+}
+
+#projects h4 {
+    padding: 0.35rem;
+    font-size: 1.25rem;
+}
+
+#projects p {
+    padding: 0.35rem;
+}
+
+#projects .content {
+    display: flex;
+}
+
+#projects .p {
+    background-color: rgb(255, 255, 255);
+    margin: 0 0.35rem;
+    padding: 0.25rem 0.25rem;
+    width: 33%;
+}
+
+#projects .image-container {
+    height: 400px;
+}
+
+#projects .one {
+    background-image: url('photos/robot.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#projects .two {
+    background-image: url('photos/basura.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#projects .three {
+    background-image: url('photos/comida.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/*employees*/
+#employees {
+    background-color: rgb(56, 56, 56);
+    padding: 1rem 2rem 4rem 2rem;
+}
+
+#employees .content {
+    display: flex;
+    justify-content: center;
+
+}
+
+#employees .e {
+    display: flex;
+    margin: 0.15rem;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 250px;
+}
+
+#employees .description {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0 1rem;
+    width: 100%;
+    color: white;
+}
+
+#employees .description h4 {
+    margin: 0.5rem 0;
+}
+
+#employees .description p {
+    margin: 0.5rem 0;
+}
+
+#employees .a {
+    flex: 5;
+    background-image: url('photos/development.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#employees .b {
+    flex: 1;
+    background-image: url('photos/ceo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#employees .c {
+    flex: 2;
+    background-image: url('photos/seo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#employees .d {
+    flex: 3;
+    background-image: url('photos/marketing.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*footer*/
+footer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(178, 178, 178);
+}
+
+footer a {
+    color: #333333
+}
