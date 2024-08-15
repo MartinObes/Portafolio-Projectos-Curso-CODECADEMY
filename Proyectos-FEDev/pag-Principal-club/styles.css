@@ -1,0 +1,308 @@
+html {
+    font-family: system-ui;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+div {
+    padding: 1rem;
+}
+
+h2 {
+    padding: 0 1rem;
+}
+
+
+/*nav*/
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(112, 20, 20);
+    display: flex;
+    align-items: center;
+
+}
+
+nav img {
+    height: 80%;
+    padding: 6px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+}
+
+nav li {
+    padding: auto 1rem;
+    margin: auto 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(16, 6, 122);
+}
+
+.phone {
+    display: none;
+}
+
+
+@media only screen and (max-width:470px) {
+    .desktop {
+        display: none;
+    }
+
+    .phone {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*presentation*/
+
+#presentation {
+    background-image: url('./photos/sede.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#presentation .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    margin: 0 auto;
+}
+
+#presentation img {
+    width: 100%;
+    display: block;
+    margin: 3rem auto;
+}
+
+#presentation h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/*activities*/
+
+
+#activities {
+    background-color: rgb(112, 20, 20);
+}
+
+#activities .content {
+    color: white;
+}
+
+#activities .card {
+    border: 5px solid white;
+    margin: 0.5rem 0.5rem;
+    padding: 0;
+    border-radius: 1px;
+}
+
+#activities .img-container {
+    padding: 0;
+    height: 60%;
+    width: 100%;
+}
+
+#activities .texto {
+    margin: 0 1rem;
+    padding: 0;
+}
+
+#activities .card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#activities .texto h3 {
+    margin: 0.5rem 0;
+}
+
+#activities .img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#activities .three .img-container {
+    height: 80%;
+    width: 100%;
+    padding: 0;
+}
+
+#activities .one {
+    flex: 7;
+}
+
+#activities .two {
+    flex: 6
+}
+
+#activities .three {
+    flex: 1;
+}
+
+#activities .four {
+    flex: 1;
+}
+
+#activities .five {
+    flex: 1;
+}
+
+
+@media only screen and (max-width:700px) {
+
+    #activities .card {
+        flex-shrink: 1;
+    }
+
+    #activities .texto p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:470px) {
+    #activities .content {
+        flex-shrink: 1;
+    }
+
+    #activities .card {
+        flex-shrink: 1;
+        display: block;
+    }
+
+    #activities .texto p {
+        display: none;
+    }
+
+    #activities .card {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    #activities .texto h3:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+/*news*/
+
+#news {
+    background-color: rgb(7, 3, 56);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#news h2 {
+    padding: 0 1rem;
+}
+
+#news .content {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.25);
+    height: 90%;
+    display: flex;
+}
+
+#news .list {
+    display: flex;
+}
+
+#news .card {
+    border: solid 3px;
+    border-radius: 1px;
+    margin: 0.5rem 0.5rem;
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#news h4 {
+    padding: 1rem;
+    margin: 0;
+    background-color: rgba(112, 20, 20, 0.5);
+    border-radius: 1px;
+}
+
+#news h4:hover {
+    background-color: rgb(112, 20, 20);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#news .one {
+    background-image: url('./photos/olimpiadas.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#news .two {
+    background-image: url('./photos/obras.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#news .three {
+    background-image: url('./photos/110Anos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*footer*/
+
+
+footer {
+    background-color: rgb(112, 20, 20);
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul {
+    padding: 0.5rem;
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(112, 20, 20);
+}
+
+footer li {
+    padding: 0 2rem;
+    color: white;
+}
+
+footer li:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+}
